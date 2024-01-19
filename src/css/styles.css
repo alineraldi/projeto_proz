@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'riesling';
+    src: url(../fonts/riesling.ttf) format('truetype');
+}
+
+h1 {
+    font-family: 'riesling';
+    font-style: normal;
+    font-size: 07em;
+}
+
