@@ -57,46 +57,52 @@ input {
     padding: 5px; /* Ajuste conforme necessário */
 }
 
-
+main, footer {
+    padding: 0 20px;
+}
 
 h1 {
     font-family: 'riesling';
     font-style: normal;
-    font-size: 05em;
+    font-size: 5em;
+    text-align: center;
+}
+
+.wrapper {
+   display:flex;
+   justify-content:center;
+   align-items: center;
+   margin-bottom: 20px;
 }
 
 .instruments {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:10px;
 }
 
 .instrument {
-    width: 45%;
-    height: 700px;
-    margin: 10px;
-    position: relative;
-    overflow: hidden;
-    max-width: 800px;
+    align-self: center;
+    justify-self: center;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
-.instrument h2 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin: 0;
-    text-align: center;
-    color: red;
-}
-
-.instrument h2, a {
+.instrument p > a {
     text-decoration: none;
+    color: #7B372E;
+    font-weight: bold;
+    font-size: 32px;
+    background-color: #fff;
 }
 
 .key_instruments {
-    background: url(../assets/piano.png) center/cover;
+    background: url(../assets/piano.png);
+    background-position: center;
     background-size: cover;
 }
 
@@ -113,5 +119,9 @@ h1 {
 .percussion_instruments {
     background: url(../assets/bateria.png) center/cover;
     background-size: cover;
+}
+
+footer > div {
+    margin: 10px;
 }
 
