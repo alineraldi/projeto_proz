@@ -3,9 +3,115 @@
     src: url(../fonts/riesling.ttf) format('truetype');
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(236, 237, 232);
+    min-height: 200vh;
+}
+
+header {
+    background: url(../assets/bg.jpeg);
+    background-size: cover;
+    background-position: center;
+    text-align: center; /* Isso centraliza o conteúdo dentro do header */
+    justify-content: space-between;
+    padding: 50px; /* Ajuste conforme necessário */
+}
+
+nav ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    position: relative;
+    list-style: none;
+}
+
+nav a {
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    transition: 0.6s;
+}
+
+.search {
+    margin-top: 20px; /* Ajuste conforme necessário */
+}
+
+.search h3 {
+    color: white; /* Ajuste a cor do texto conforme necessário */
+}
+
+input {
+    padding: 5px; /* Ajuste conforme necessário */
+}
+
+
+
 h1 {
     font-family: 'riesling';
     font-style: normal;
     font-size: 05em;
+}
+
+.instruments {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.instrument {
+    width: 45%;
+    height: 700px;
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+    max-width: 800px;
+}
+
+.instrument h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    text-align: center;
+    color: red;
+}
+
+.instrument h2, a {
+    text-decoration: none;
+}
+
+.key_instruments {
+    background: url(../assets/piano.png) center/cover;
+    background-size: cover;
+}
+
+.wind_instrument {
+    background: url(../assets/saxofone.png) center/cover;
+    background-size: cover;
+}
+
+.chords_instruments {
+    background: url(../assets/violao.png) center/cover;
+    background-size: cover;
+}
+
+.percussion_instruments {
+    background: url(../assets/bateria.png) center/cover;
+    background-size: cover;
 }
 
