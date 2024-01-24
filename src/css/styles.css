@@ -14,60 +14,6 @@ body {
     min-height: 200vh;
 }
 
-header {
-    display: flex;
-    align-items: baseline;
-    justify-content: center;
-    background: url(../assets/bg.jpeg);
-    background-size: cover;
-    background-position: center;
-    text-align: center; /* Isso centraliza o conteúdo dentro do header */
-    /* justify-content: space-between; */
-    padding: 50px; /* Ajuste conforme necessário */
-}
-
-nav ul {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-nav ul li {
-    position: relative;
-    list-style: none;
-}
-
-nav a {
-    position: relative;
-    margin: 0 15px;
-    text-decoration: none;
-    color: #fff;
-    letter-spacing: 2px;
-    font-weight: 500px;
-    transition: 0.6s;
-}
-
-.search a {
-    margin-top: 20px; /* Ajuste conforme necessário */
-    display: flex;
-    align-items: baseline;
-    text-decoration: none;
-}
-
-.search a > i {
-    margin-top: 20px; /* Ajuste conforme necessário */
-    margin-right: 10px;
-}
-
-.search h3 {
-    color: white; /* Ajuste a cor do texto conforme necessário */
-}
-
-input {
-    padding: 5px; /* Ajuste conforme necessário */
-}
-
 main, footer {
     padding: 0 20px;
 }
