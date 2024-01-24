@@ -62,7 +62,7 @@ headerTemplate.innerHTML = `
       </ul> 
   </nav>
   <div class="search">
-      <a href="/src/resultadopesquisa.html">
+      <a href="/src/resultadopesquisa.html" target="_blank">
           <i class="fa fa-search"></i>
           <p>Pesquisar</p>
       </a>
