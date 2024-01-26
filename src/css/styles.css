@@ -9,12 +9,13 @@
     box-sizing: border-box;
 }
 
+
 body {
     background: rgb(236, 237, 232);
     min-height: 200vh;
 }
 
-main, footer {
+main {
     padding: 0 20px;
 }
 
@@ -80,3 +81,34 @@ h1 {
 
 
 
+
+footer {
+    background-color: black;
+    height: 270px;
+    display: flex;
+    color: #d2d1d1;
+    justify-content: space-between;
+}
+
+.nav_rodape {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 10%;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    list-style: none; 
+}
+
+footer a {
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+    letter-spacing: 1px;   
+}
