@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none; 
+    color: inherit; 
+  }
+
+  /* Fazer as configurações do header */
+
+
+  /* Abaixo são as configurações do footer */
+
+  footer {
+    display: flex;
+    gap: 60%; 
+    background-color: #000;
+    color: #e6e6e6;
+    padding: 0%;
+    height: 240px;
+  }
+
+  .nav_rodape {
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    padding-left: 2%;
+    height: 100%;
+    /* font-family: ;
+    font-size: ; */
+  }
+
+  footer .nav_rodape ul {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    /* font-family: ;
+    font-size: ; */
+  }
