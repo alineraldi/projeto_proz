@@ -1,9 +1,15 @@
+@font-face {
+    font-family: 'riesling';
+    src: url(../fonts/riesling.ttf) format('truetype');
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body{
     margin: 0;
     background-color: #000;
     color: #eee;
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     font-size: 12px;
 }
 a{
@@ -16,9 +22,20 @@ header{
     height: 50px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     position: relative;
     z-index: 100;
 }
+
+header div span {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-family: 'riesling', sans-serif;
+}
+
 header a{
     color: #eee;
     margin-right: 40px;
@@ -59,14 +76,20 @@ header a{
     letter-spacing: 10px;
 }
 .carousel .list .item .title,
-.carousel .list .item .topic{
+.carousel .list .item .topic1,
+.carousel .list .item .topic2{
     font-size: 5em;
     font-weight: bold;
     line-height: 1.3em;
 }
-.carousel .list .item .topic{
-    color: #f1683a;
+.carousel .list .item .topic1{
+    color: #0D314E;
 }
+
+.carousel .list .item .topic2{
+    color: #CC5216;
+}
+
 .carousel .list .item .buttons{
     display: grid;
     grid-template-columns: repeat(2, 130px);
@@ -76,9 +99,9 @@ header a{
 }
 .carousel .list .item .buttons button{
     border: none;
-    background-color: #eee;
+    background-color: #D9E2F7;
     letter-spacing: 3px;
-    font-family: Poppins;
+    font-family: "Poppins";
     font-weight: 500;
 }
 .carousel .list .item .buttons button:nth-child(2){
@@ -137,7 +160,7 @@ header a{
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: #eee4;
+    background-color: #9AA3B8;
     border: none;
     color: #fff;
     font-family: monospace;
@@ -158,7 +181,8 @@ header a{
 
 .carousel .list .item:nth-child(1) .content .author,
 .carousel .list .item:nth-child(1) .content .title,
-.carousel .list .item:nth-child(1) .content .topic,
+.carousel .list .item:nth-child(1) .content .topic1,
+.carousel .list .item:nth-child(1) .content .topic2,
 .carousel .list .item:nth-child(1) .content .des,
 .carousel .list .item:nth-child(1) .content .buttons
 {
@@ -177,7 +201,8 @@ header a{
 .carousel .list .item:nth-child(1) .content .title{
     animation-delay: 1.2s!important;
 }
-.carousel .list .item:nth-child(1) .content .topic{
+.carousel .list .item:nth-child(1) .content .topic1,
+.carousel .list .item:nth-child(1) .content .topic2{
     animation-delay: 1.4s!important;
 }
 .carousel .list .item:nth-child(1) .content .des{
@@ -284,7 +309,8 @@ header a{
 }
 .carousel.prev .list .item:nth-child(2) .content .author,
 .carousel.prev .list .item:nth-child(2) .content .title,
-.carousel.prev .list .item:nth-child(2) .content .topic,
+.carousel.prev .list .item:nth-child(2) .content .topic1,
+.carousel.prev .list .item:nth-child(2) .content .topic2,
 .carousel.prev .list .item:nth-child(2) .content .des,
 .carousel.prev .list .item:nth-child(2) .content .buttons
 {
