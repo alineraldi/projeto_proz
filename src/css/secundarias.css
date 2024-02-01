@@ -8,17 +8,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-/*  background-color: black; */
+   /* background-color: ; */
 }
 
 main {
-    /* background-color: #e2e2e2; */
-    width: 75%;
+    width: 80%;
     border-radius: 10px;
+    border: double #0D314E;
+    background-color: #f1f4fc;
+    filter: drop-shadow(20px 20px 20px #9aa3b8);
     font-family:"Garamond";
     font-size: 20px;
     margin: 3% 0;
     padding:  1% 2% 2% 2%;
+    z-index: 1;
 }
 
 #nome_pagina {
@@ -62,7 +65,7 @@ p {
  
 }
 
-.subtitulo_instrumentos {
+/* .subtitulo_instrumentos {
     display: flex;
     background-color: rgb(181, 181, 181);
     font-size: 40px;
@@ -73,7 +76,7 @@ p {
     align-items: center;
     justify-content: center;
 
-}
+}*/
 
 .todos_instrumentos img {
     width: calc(100vh - 400px);
