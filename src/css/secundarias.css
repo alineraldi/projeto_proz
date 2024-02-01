@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+#geral{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+main {
+    background-color: #d9e2f7;
+    width: 75%;
+    border-radius: 10px;
+    font-family:"Garamond";
+    font-size: 20px;
+    margin: 3% 0;
+    padding:  1% 2% 2% 2%;
+}
+
+#nome_pagina {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0D314E;
+    font-size: 80px;
+    margin: 0%;
+}
+
+.titulos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', "Garamond";
+    color: #CC5216;
+}
+
+p {
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+.todos_instrumentos {
+    display: flex;
+    gap: 4%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.todos_instrumentos img {
+    width: calc(100vh - 400px);
+    height: calc(100vh - 500px);
+    min-width: 410px;
+    min-height: 360px;
+    margin-bottom: 4%;
+}
+
+.subtitulo_instrumentos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    font-size: 40px;
+    position: absolute;
+}
+
