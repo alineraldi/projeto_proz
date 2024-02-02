@@ -6,7 +6,7 @@ headerTemplate.innerHTML = `
         display: flex;
         align-items: baseline;
         justify-content: center;
-        background: url(/src/assets/bg.jpeg);
+        background: url(/src/assets/bg.png);
         background-size: cover;
         background-position: center;
         padding: 50px; /* Ajuste conforme necessário */
