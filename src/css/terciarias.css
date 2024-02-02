@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+#geral{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 200px;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+#nome_pagina {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0D314E;
+    font-family: "Poppins";
+    font-size: 80px;
+    margin: 0%;
+}
+
+.titulos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Garamond";
+    font-style: italic;
+    color: #CC5216;
+    font-size:32px;
+}
+
+p {
+    font-size: 21px;
+    line-height: 1.5;
+}
