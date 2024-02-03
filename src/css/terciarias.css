@@ -7,7 +7,7 @@
     margin: 200px;
     padding: 0;
     box-sizing: border-box;
-    
+    width: 900px;
 }
 
 #nome_pagina {
@@ -18,6 +18,14 @@
     font-family: "Poppins";
     font-size: 80px;
     margin: 0%;
+}
+
+#variacoes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: justify;
+
 }
 
 .titulos {
@@ -33,6 +41,6 @@
 p {
     font-size: 21px;
     line-height: 1.5;
-    width: 900px;
     font-family: "Garamond";
+    padding:20px;
 }
