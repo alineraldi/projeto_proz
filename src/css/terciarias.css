@@ -37,8 +37,7 @@ body main {
 
 .titulos {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: left;
     font-family: "Garamond";
     font-style: italic;
     font-size: 35px;
@@ -48,6 +47,7 @@ body main {
 p {
     font-size: 25px;
     line-height: 1.5;
+    text-align: justify;
 }
 
 .variacoes {
@@ -60,13 +60,18 @@ p {
 
 .elemento1, .elemento2 {
     flex: 1;
-    border: 1px solid red;
 }
 
 #geral .imagem.principal {
     width: 80%;
     height: auto;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#geral .imagem.variacoes {
+    width:70%;
     margin-left: auto;
     margin-right: auto;
 }
