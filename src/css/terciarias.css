@@ -15,7 +15,7 @@ body main {
     border-radius: 10px;
     border: double #0D314E;
     background-color: #f1f4fc;
-    filter: drop-shadow(10px 10px 10px #9aa3b8);
+    filter: drop-shadow(10px 10px 10px #0d314e);
     font-family:"Garamond";
     font-size: 20px;
     margin: 3% 0;
