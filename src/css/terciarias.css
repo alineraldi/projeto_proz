@@ -50,7 +50,28 @@ p {
     line-height: 1.5;
 }
 
-.imagem.principal {
+.variacoes {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5%;
+}
+
+.elemento1, .elemento2 {
+    flex: 1;
+    border: 1px solid red;
+}
+
+#geral .imagem.principal {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* .todos_instrumentos { 
     display: flex;
     gap: 4%;
     flex-wrap: wrap;
@@ -86,4 +107,8 @@ p {
     -moz-transform: scale(1.05);
     -webkit-transform: scale(1.05);
     transform: scale(1.05);
-}
+} */
+
+
+
+
