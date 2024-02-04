@@ -59,15 +59,16 @@ p {
 }
 
 .elemento1, .elemento2 {
-    flex: 1;
+    flex: 2;
 }
 
 #geral .imagem.principal {
-    width: 80%;
+    width: 100%;
     height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 20px;
 }
 
 #geral .imagem.variacoes {
