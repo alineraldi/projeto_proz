@@ -30,7 +30,9 @@ headerTemplate.innerHTML = `
         text-decoration: none;
         color: #fff;
         letter-spacing: 2px;
-        font-weight: 500px;
+        font-weight: bold;
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
         transition: 0.6s;
     }
 
@@ -48,7 +50,10 @@ headerTemplate.innerHTML = `
     }
 
     .search p {
-        color: white; /* Ajuste a cor do texto conforme necessário */
+      font-weight: bold;
+      font-family: "Poppins", sans-serif;
+      font-size: 14px;
+      color: #fff; /* Ajuste a cor do texto conforme necessário */
     }
   </style>
   <header>
