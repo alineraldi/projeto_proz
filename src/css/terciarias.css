@@ -23,7 +23,7 @@ body main {
     z-index: 1;
 }
 
-#nome_pagina {
+h1 {
     display: flex;
     font-family: 'Poppins';
     font-weight: bolder;
@@ -35,13 +35,17 @@ body main {
     margin: 0%;
 }
 
-.titulos {
+h2, h3 {
     display: flex;
     justify-content: left;
     font-family: "Garamond";
     font-style: italic;
     font-size: 35px;
     color: #CC5216;
+}
+
+h3 {
+    font-size: 25px;
 }
 
 p {
