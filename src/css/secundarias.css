@@ -11,7 +11,7 @@
 }
   
 body main {
-   width: 80%;
+    width: 80%;
     border-radius: 10px;
     border: double #0D314E; 
     background-color: #f1f4fc;
@@ -43,6 +43,7 @@ body main {
     font-family: "Garamond";
     font-style: italic;
     font-size: 35px;
+    margin: 4% 0 5% 0;
     color: #CC5216;
 }
 
@@ -58,6 +59,8 @@ body main {
 p {
     font-size: 25px;
     line-height: 1.5;
+    text-align: justify;
+    text-indent: 4.5%;
 }
 
 .todos_instrumentos {
