@@ -14,7 +14,7 @@ body main {
     width: 80%;
     border-radius: 10px;
     border: double #0D314E; 
-    background-color: #f1f4fc;
+    background-color: #0D314E;
     filter: drop-shadow(10px 10px 10px #9aa3b8);
     font-family:"Garamond";
     font-size: 20px;
@@ -31,7 +31,7 @@ body main {
     text-transform: uppercase;
     align-items: center;
     justify-content: center;
-    color: #0D314E;
+    color: #cdd2de;
     font-size: 75px;
     margin: 0%;
 }
@@ -61,6 +61,7 @@ p {
     line-height: 1.5;
     text-align: justify;
     text-indent: 4.5%;
+    color: #c9c9c9;
 }
 
 .todos_instrumentos {
@@ -88,6 +89,7 @@ p {
     min-width: 410px;
     min-height: 360px;
     border-radius: 7px;
+    border: 5px solid #9aa3b8;
     -moz-transition: all 0.3s;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
@@ -95,14 +97,14 @@ p {
 }
 
 .todos_instrumentos img:hover {
-    filter: drop-shadow(20px 20px 20px #000); 
+    filter: drop-shadow(10px 10px 10px #9aa3b8); 
     -moz-transform: scale(1.05);
     -webkit-transform: scale(1.05);
     transform: scale(1.05);
 }
 
 .subtitulos {
-    color:#0D314E;
+    color:#9aa3b8;
     font-family: "Poppins";
     font-weight: bold;
     font-size: 20px;
