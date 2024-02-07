@@ -27,20 +27,32 @@ header{
     z-index: 100;
 }
 
-header div span {
+header nav {
+    padding: 0;
+    margin: 0;
+    list-style: none;
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
-    align-items: center;
-    text-align: center;
+    gap: 20px;
+    font-weight: 500;
+}
+
+header .logo{
+    font-weight: bold;
     font-family: 'riesling', sans-serif;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5em;
+    color: #D9E2F7;
 }
 
 header a {
-    color: #ea7134;
+    color: #D9E2F7;
     font-weight: bold;
     margin-right: 40px;
     font-size: 16px;
+    justify-content: end;
+    align-items: end;
 }
 /* carousel */
 .carousel{
@@ -68,15 +80,11 @@ header a {
     max-width: 80%;
     left: 50%;
     transform: translateX(-50%);
-    padding-right: 30%;
     box-sizing: border-box;
     color: #fff;
     text-shadow: 0 5px 10px #0004;
 }
-.carousel .list .item .author{
-    font-weight: bold;
-    letter-spacing: 10px;
-}
+
 .carousel .list .item .title,
 .carousel .list .item .topic{
     font-size: 5em;
@@ -85,7 +93,11 @@ header a {
 }
 .carousel .list .item .topic{
     color: #CC5216;
+}
 
+.carousel .list .item .topic .des{
+    color: #333;
+    font-size: 5em;
 }
 
 .carousel .list .item .buttons{
