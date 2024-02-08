@@ -2,77 +2,121 @@ const headerTemplate = document.createElement('template');
 
 headerTemplate.innerHTML = `
   <style>
-      header {
-        display: flex;
-        align-items: baseline;
-        justify-content: center;
-        background: url(/src/assets/bg.png);
-        background-size: cover;
-        background-position: center;
-        padding: 50px; /* Ajuste conforme necessário */
-    }
+  @font-face {
+    font-family: 'riesling';
+    src: url(../fonts/riesling.ttf) format('truetype');
+}
 
-    nav ul {
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-    nav ul li {
-        position: relative;
-        list-style: none;
-    }
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
 
-    nav a {
-        position: relative;
-        margin: 0 15px;
-        text-decoration: none;
-        color: #fff;
-        letter-spacing: 2px;
-        font-weight: bold;
-        font-family: "Poppins", sans-serif;
-        font-size: 14px;
-        transition: 0.6s;
-    }
 
-    .search a {
-        margin-top: 20px; /* Ajuste conforme necessário */
-        display: flex;
-        align-items: baseline;
-        text-decoration: none;
-    }
+  .navegacao {
+    height: 80px;
+    background-color: #0D314E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+  }
 
-    .search a > i {
-        margin-top: 20px; /* Ajuste conforme necessário */
-        margin-right: 10px;
-        color: white;
-    }
+  .navegacao .menu {
+    display: flex;
+    gap: 15%;
+  }
 
-    .search p {
-      font-weight: bold;
-      font-family: "Poppins", sans-serif;
-      font-size: 14px;
-      color: #fff; /* Ajuste a cor do texto conforme necessário */
-    }
+  .navegacao .menu li a {
+    padding-bottom: 30px;
+    text-transform: uppercase;
+    color: #e8e8e8;
+    font-weight: bolder;
+    font-size: 15px;
+    font-family: "Garamond";
+  }
+
+  .navegacao .menu li a:hover{
+    border-bottom: 2px solid #fff;
+  }
+
+  main {
+    display: flex;
+    min-height: calc(100vh - 80px);
+    width: 100%;
+  }
+
+  main #img {
+    position: absolute;
+    z-index: 1;
+    min-height: calc(100vh - 80px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+    object-fit: cover;
+  }
+
+  main #nome_pagina {
+    position: absolute;
+    z-index: 1;
+    min-height: calc(100vh - 80px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    margin: 0px;
+    
+    font-weight: bold;
+    font-family: 'riesling';
+    font-size: 70px;
+    color: #D9E2F7;
+  }
+
+  main #nome_pagina h1 {
+    padding: 0px;
+    margin: 20px 0px;
+  }
+
   </style>
+  
+
+
   <header>
-  <nav>
-      <ul>
+    <nav class="navegacao">
+
+      <ul class="menu">
           <li><a href="/src/index.html">Home</a></li>
           <li><a href="/src/pages/category/teclas/teclas.html" target="_blank">Teclas</a></li>
           <li><a href="/src/pages/category/sopros/sopros.html" target="_blank">Sopros</a></li>
           <li><a href="/src/pages/category/cordas/cordas.html" target="_blank">Cordas</a></li>
           <li><a href="/src/pages/category/percussao/percussao.html" target="_blank">Percussão</a></li>
-      </ul> 
-  </nav>
-  <div class="search">
-      <a href="/src/resultadopesquisa.html" target="_blank">
-          <i class="fa fa-search"></i>
-          <p>Pesquisar</p>
-      </a>
-  </div>
-</header>
+      </ul>
+   
+      <div class="pesquisar">
+            <a href="/src/resultadopesquisa.html" target="_blank">
+                <i class="fa fa-search"></i>
+                <p>Pesquisar</p>
+            </a>
+      </div> 
+    </nav>
+   
+    <main>
+      <img id="img" src="../../src/assets/fotoHeader.jpg" alt="imagem de uma orquestra"/>
+
+      <div id="nome_pagina">
+        <h1> Musicalizando</h1>
+      </div>
+    </main> 
+  </header>
 `;
 
 class Header extends HTMLElement {
