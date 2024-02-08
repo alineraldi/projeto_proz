@@ -48,12 +48,12 @@ h3 {
     font-size: 25px;
 }
 
-img {
+.img_instrumento {
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-radius: 20px;
-    width:70%;
+    width:50%;
     margin-left: auto;
     margin-right: auto;
 }
