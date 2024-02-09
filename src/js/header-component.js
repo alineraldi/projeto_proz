@@ -20,7 +20,7 @@ headerTemplate.innerHTML = `
 
 
   .navegacao {
-    height: 80px;
+    height: 8vh;
     background-color: #0D314E;
     display: flex;
     justify-content: space-between;
@@ -48,14 +48,15 @@ headerTemplate.innerHTML = `
 
   main {
     display: flex;
-    min-height: calc(100vh - 80px);
-    width: 100%;
+    min-height: 92vh;
+    width: 100vh;
   }
 
   main #img {
     position: absolute;
     z-index: 1;
-    min-height: calc(100vh - 80px);
+    height: 92vh;
+    width: 100vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -67,8 +68,6 @@ headerTemplate.innerHTML = `
   main #nome_pagina {
     position: absolute;
     z-index: 1;
-    min-height: calc(100vh - 80px);
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: flex-start;
