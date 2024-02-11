@@ -1,0 +1,247 @@
+@font-face {
+    font-family: 'riesling';
+    src: url(../fonts/riesling.ttf) format('truetype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    /* background: #000;  */
+    min-height: 200vh;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 40px 100px;
+    z-index: 10000;
+}
+
+
+header.sticky {
+    padding: 5px 100px;
+    background: #fff;
+}
+
+header .logo {
+    position: relative;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    font-size: 5em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.6s;
+    font-family: 'riesling', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+header a span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'riesling', sans-serif;
+}
+
+header .logo img {
+    max-width: 25%;
+    height: auto;
+}
+
+header .search,
+header ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    position: relative;
+    list-style: none;
+}
+
+header .search a,
+header ul li a {
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    transition: 0.6s;
+}
+
+
+.search {
+    
+    display: inline-block;
+    align-items: baseline;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.fa-search {
+    margin-left: 5px; /* Ajuste o espaçamento conforme necessário */
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(../assets/bg2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+header.sticky .logo, 
+header.sticky .search,
+header.sticky i,
+header.sticky p,
+header.sticky ul li a {
+    color: #000;
+}
+
+
+#geral{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    
+    width: 80%;
+    border-radius: 10px;
+    border: double #0D314E;
+    background-color: #f1f4fc;
+    filter: drop-shadow(10px 10px 10px #0d314e);
+    font-family:"Garamond";
+    font-size: 20px;
+    margin: 3% 0;
+    padding:  1% 2% 2% 2%;
+    z-index: 1;
+}
+h1 {
+    display: flex;
+    font-family: 'Poppins';
+    font-weight: bolder;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+    color: #0D314E;
+    font-size: 75px;
+    margin: 0%;
+}
+
+h2, h3 {
+    display: flex;
+    justify-content: left;
+    font-family: "Garamond";
+    font-style: italic;
+    font-size: 35px;
+    color: #CC5216;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+p {
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+}
+
+.img_instrumento {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.variacoes {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5%;
+}
+
+.elemento1, .elemento2 {
+    flex: 2;
+}
+
+#geral .imagem.principal {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+#geral .imagem.variacoes {
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.todos_instrumentos { 
+    display: flex;
+    gap: 4%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container_instrumentos {
+    display: flex;
+    position: relative;
+    margin-bottom: 30px;
+    min-width: 410px;
+    min-height: 360px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.todos_instrumentos img {
+    width: calc(100vh - 400px);
+    height: calc(100vh - 500px);
+    min-width: 410px;
+    min-height: 360px;
+    border-radius: 7px;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    max-width: 50%;
+}
+
+.todos_instrumentos img:hover {
+    filter: contrast(80%) drop-shadow(20px 20px 20px #000); 
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
