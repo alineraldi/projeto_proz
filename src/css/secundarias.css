@@ -29,7 +29,7 @@ body main {
 }
 
 
-#nome_pagina {
+h1 {
     display: flex;
     font-family: 'Poppins';
     font-weight: bolder;
@@ -41,7 +41,7 @@ body main {
     margin: 0%;
 }
 
-.titulos {
+h2 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -108,7 +108,7 @@ p {
     transform: scale(1.05);
 }
 
-.subtitulos {
+h3 {
     color:#9aa3b8;
     font-family: "Poppins";
     font-weight: bold;
