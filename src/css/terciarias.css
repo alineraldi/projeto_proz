@@ -64,6 +64,21 @@ p {
     text-align: justify;
 }
 
+/* Quotes */
+.quotes-container {
+    background-color: #9AA3B8;
+    padding: 30px;
+  }
+  
+  .quotes-container blockquote {
+    font-weight: bold;
+    font-size: 30px;
+  }
+  
+  .quotes-container p {
+    font-style: italic;
+  }
+
 .variacoes {
     width: 90%;
     display: flex;
