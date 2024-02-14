@@ -102,11 +102,18 @@ header ul li a {
     margin-left: 5px; /* Ajuste o espaçamento conforme necessário */
 }
 
+p {
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+}
+
+
 .banner {
     position: relative;
     width: 100%;
     height: 100vh;
-    background: url(../assets/bg2.png);
+    background: url(../assets/bg_2.jpg);
     background-size: cover;
     background-position: center;
 }
