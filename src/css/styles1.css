@@ -17,67 +17,84 @@ body {
     min-height: 200vh;
 }
 
-.navegacao {
+header {
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    height: 8vh;
-    background-color: #0D314E;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    transition: 0.6s;
     padding: 40px 100px;
     z-index: 10000;
-  }
-
-.navegacao .menu {
-    display: flex;
-    gap: 15%;
-  }
-
-ul {
-    list-style: none;
-    text-decoration: none;
 }
 
-.navegacao .pesquisar a,
-.navegacao .menu li a {
-    padding-bottom: 30px;
-    text-transform: uppercase;
-    color: #e8e8e8;
-    font-weight: bolder;
-    font-size: 15px;
-    font-family: "Garamond";
-    text-decoration: none;
+
+header.sticky {
+    padding: 5px 100px;
+    background: #fff;
 }
 
-header nav {
-    background-image: url(../assets/bg2.png);
+header .logo {
     position: relative;
-    height: 85vh;
-    width: 100%;
-    justify-content: center;
-    background-size: cover;
-    background-position: center;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    font-size: 5em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.6s;
+    font-family: 'riesling', sans-serif;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+header a span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'riesling', sans-serif;
+}
+
+header .logo img {
+    max-width: 25%;
+    height: auto;
+}
+
+header .search,
+header ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
-header nav h1 {
-    text-align: center;
-    font-family: 'riesling';
-    font-size: 10em;
-    font-style: normal;
-    padding: 10px 0px;
-    margin: 0;
-    color: #fff;
-    letter-spacing: 10px;
+header ul li {
+    position: relative;
+    list-style: none;
 }
 
-.pesquisar {
+header .search a,
+header ul li a {
+    position: relative;
+    margin: 0 15px;
     text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    transition: 0.6s;
+}
+
+
+.search {
+    
     display: inline-block;
     align-items: baseline;
+    text-decoration: none;
     vertical-align: middle;
 }
 
