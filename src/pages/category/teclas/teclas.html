@@ -14,28 +14,34 @@
 
     <!-- <header-component></header-component> -->
     <header>
-        <div class="navegacao">
-            <ul class="menu">
-                <li><a href="/src/index.html">Home</a></li>
-                <li><a href="/src/pages/category/teclas/teclas.html" target="_blank">Teclas</a></li>
-                <li><a href="/src/pages/category/sopros/sopros.html" target="_blank">Sopros</a></li>
-                <li><a href="/src/pages/category/cordas/cordas.html" target="_blank">Cordas</a></li>
-                <li><a href="/src/pages/category/percussao/percussao.html" target="_blank">Percussão</a></li>
-            </ul>
-     
-            <div class="pesquisar">
-              <a href="/src/resultadopesquisa.html" target="_blank">
-                  <i class="fa fa-search"></i>
-                  <p>Pesquisar</p>
-              </a>
-            </div>
-        </div>
+        
+        <a href="" class="logo">
+            
+            <span>Musicalizando</span>
+        </a>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./pages/category/teclas.html" target="_blank">Teclas</a></li>
+            <li><a href="./pages/category/sopros.html" target="_blank">Sopros</a></li>
+            <li><a href="./pages/category/cordas.html" target="_blank">Cordas</a></li>
+            <li><a href="./pages/category/percussao.html" target="_blank">Percussão</a></li>
+            <div class="search"><a href="/src/resultadopesquisa.html" target="_blank">
+                <i class="fa fa-search"></i>
+                <p>Pesquisar</p>
+            </a></div>
+        </ul> 
+        
+    
+    
+</header>
 
-        <nav>
-            <h1> Musicalizando</h1>
-        </nav>
-
-    </header>
+<nav>
+<section class="banner"></section>
+<script type="text/javascript">
+    window.addEventListener("scroll", function(){var header = document.querySelector("header");
+header.classList.toggle("sticky", window.scrollY > 0);})
+</script>
+</nav>
 
 
     <div id="geral">
