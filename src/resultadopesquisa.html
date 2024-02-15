@@ -5,29 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="./css/resultado.css">
+
     <script src="./js/header-component.js" type="text/javascript" defer></script>
     <script src="./js/footer-component.js" type="text/javascript" defer></script>
+    <script src="./js/resultado.js" defer></script>
 
-    <title>Página de pesquisa</title>
+    <title>Página de Pesquisa</title>
 </head>
 <body>
  
     <header-component></header-component>
+    <h2>Página de Pesquisa</h2>
 
     <div class="result">
-        <h4>Pesquisar: <i>"Input inserido"</i></h4></div>
-        <h2>Título 1</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea doloremque veniam labore quidem ipsum ullam!</p>
-        <h2>Título 2</h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta quae autem blanditiis mollitia illo dignissimos.</p>
-        <h2>Título 3</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa rerum dolore ex at deleniti? Saepe!</p>
-        <h2>Título 4</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa repellendus autem perferendis, ea totam consectetur.</p>
-        <h2>Título 5</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quae quis sit numquam, enim eos!
-        <h2>Título 6</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic maiores pariatur deserunt, voluptas repellendus labore?</p>
+        <label for="resultInput">
+            <span class="material-symbols-outlined">search</span>
+        </label>
+        <input type="text" id="resultInput" placeholder="Digite o que você procura..." />
+    </div>
+    <div class="card-container">
+        <div class="card">
+            <h3>Título</h3>
+            <p>Descrição</p>
+        </div>
     </div>
     
     <footer-component></footer-component>
