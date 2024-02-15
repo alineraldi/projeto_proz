@@ -1,5 +1,16 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@font-face {
+    font-family: 'riesling';
+    src: url(../fonts/riesling.ttf) format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
 
 #geral{
     background-color: #0D314E;
