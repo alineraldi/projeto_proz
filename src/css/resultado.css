@@ -13,19 +13,21 @@
 }
 
 body {
-    background-color: #fff;
+    background-color: #0D314E;
+    flex-direction: column;
+    align-items: center;
 }
 
 .result {
     display: flex;
     align-items: center;
-    border: 1px solid #ccc;
-    background-color: #00000006;
+    border: 1px solid #9AA3B8;
+    background-color: #D9E2F7;
     width: 400px;
     margin: 20px auto;
     border-radius: 20px;
     padding: 5px 10px;
-    color: #4b4b4b;
+    color: #0D314E;
 }
 
 #resultInput {
@@ -48,10 +50,37 @@ body {
 
 .card {
     width: 350px;
-    background-color: #fff;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     border: 1px solid #e0e0e0;
     border-radius: 10px;
     margin: 10px;
     padding: 15px 20px;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
 }
+
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Garamond";
+    font-weight: bolder;
+    font-size: 75px;
+    margin: 4% 0 5% 0;
+    color: #CC5216;
+}
+
+h3 {
+    color:#000;
+    font-family: "Poppins";
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
+}
+
+p {
+    font-size: 15px;
+    color: #eee;
+}
+
