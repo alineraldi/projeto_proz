@@ -95,9 +95,10 @@ header a {
     color: #CC5216;
 }
 
-.carousel .list .item .topic .des{
-    color: #333;
-    font-size: 5em;
+.carousel .list .item .des{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
 }
 
 .carousel .list .item .buttons{
