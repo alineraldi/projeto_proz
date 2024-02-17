@@ -8,7 +8,7 @@ footerTemplate.innerHTML = `
           <h2>Musicalizando</h2>
           
           <ul>
-            <img src="./assets/logo_1.png" alt="Logo Musicalizando">
+            <img src="/src/assets/logo_1.png" alt="Logo Musicalizando">
             <li>
               <h3>Institucional</h3>
               <a href="/src/index.html">Home</a>
