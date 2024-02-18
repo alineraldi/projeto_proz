@@ -84,11 +84,11 @@ const data = [
      description: "O cravo continua presente no cenário musical contemporâneo carioca e brasileiro. Espetáculos teatrais, montagens de óperas e concertos de música erudita e de música brasileira são alguns exemplos da versatilidade do uso deste instrumento."   
     },
     {
-     title: "Você Sabia? O Piano e o Cinema",
+     title: "O Piano e o Cinema",
      description: "Esse instrumento tem um lugar especial no cinema. Durante a era do cinema mudo, pianistas tocavam ao vivo durante a exibição dos filmes para acompanhar as cenas e criar atmosfera. Sendo assim, esse estilo de apresentação ao vivo é conhecido como “piano de cinema” e ainda existe em alguns cinemas hoje em dia."   
     },
     {
-     title: "Você Sabia? O Piano e a Matemática",
+     title: "O Piano e a Matemática",
      description: "Você sabia que tocar este instrumento pode ajudar a desenvolver habilidades matemáticas? Estudos mostram que o aprendizado de música pode melhorar a habilidade de uma pessoa em lidar com números e resolver problemas matemáticos. Isso ocorre porque a música envolve padrões rítmicos e melódicos que estimulam o cérebro e melhoram a habilidade matemática."   
     },
 ];

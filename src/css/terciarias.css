@@ -70,6 +70,10 @@ p {
     font-family: Garamond;
 }
 
+span {
+    font-weight: 600;
+}
+
 .variacoes {
     width: 90%;
     display: flex;
@@ -86,22 +90,22 @@ p {
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
     -webkit-transition: all 1s ease;
-    }
+}
     
-    .color img:hover{
+.color img:hover{
     filter: grayscale(0%);
     filter: gray;
     -webkit-filter: grayscale(0%);
     filter: none;
     transition: 1s ease;
-    }
+}
 
-#geral .imagem.principal {
+#geral .imagem.principal,
+#geral .img_instrumento {
     width: 100%;
     height: auto;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 10px auto 10px auto;
     border-radius: 20px;
 }
 
@@ -109,4 +113,44 @@ p {
     width:70%;
     margin-left: auto;
     margin-right: auto;
+}
+
+.img_stevie {
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+}
+
+.img_stevie1,
+.img_stevie2 {
+    
+    justify-content: space-between;
+    width: 50%;
+    height: 60%;
+    border-radius: 20px;
+}
+
+.img_paul {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: 10px auto 10px auto;
+    border-radius: 20px;
+}
+
+/* Quotes */
+.quotes-container {
+    background-color: #ddd;
+    padding: 30px;
+    margin: 10px;
+  }
+  
+.quotes-container blockquote {
+    font-weight: bold;
+    font-size: 30px;
+}
+  
+.quotes-container p {
+    font-style: italic;
+    color: #000;
 }
