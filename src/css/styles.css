@@ -12,7 +12,7 @@ body{
     font-family: "Poppins", sans-serif;
     font-size: 12px;
 }
-a{
+a {
     text-decoration: none;
 }
 header{
@@ -24,17 +24,19 @@ header{
     align-items: center;
     justify-content: space-between;
     position: relative;
+    top: 15px;
     z-index: 100;
 }
 
 header nav {
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
     list-style: none;
     display: flex;
     justify-content: space-between;
     gap: 20px;
     font-weight: 500;
+    align-items: center;
 }
 
 header .logo{
@@ -71,7 +73,7 @@ header a {
 .carousel .list .item img{
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: fill;
 }
 .carousel .list .item .content{
     position: absolute;
