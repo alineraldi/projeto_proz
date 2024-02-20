@@ -78,6 +78,5 @@ section.bottom {
 @media (width > 600px) {
   section.logo1 ul {
       grid-template-columns: repeat(4, 1fr);
-      padding-right: 0;
   }
 }
