@@ -20,10 +20,10 @@ footerTemplate.innerHTML = `
             </li>
             <li>
               <h3>Onde nos Encontrar</h3>
-              <a href="#">Facebook</a>
-              <a href="#">Instagram</a>
-              <a href="#">Youtube</a>
-              <a href="#">Twitter</a>
+              <a href="#"><img src="/src/assets/facebook.png" alt="Ícone Logo Facebook">Facebook</a>
+              <a href="#"><img src="/src/assets/instagram.png" alt="Ícone Logo Instagram">Instagram</a>
+              <a href="#"><img src="/src/assets/youtube.png" alt="Ícone Logo Youtube">Youtube</a>
+              <a href="#"><img src="/src/assets/twitter.png" alt="Ícone Logo Twitter">Twitter</a>
             </li>
           </ul>
         </section>
@@ -33,6 +33,7 @@ footerTemplate.innerHTML = `
         </section>
       </footer>
 `;
+
 
 class Footer extends HTMLElement {
   constructor() {
