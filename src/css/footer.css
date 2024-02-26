@@ -51,9 +51,9 @@ section.logo1 ul li a {
 }
 
 section.logo1 ul li a img {
-  width: 30px;
-  height: 30px;
-  
+  width: 25px;
+  height: 25px;
+  margin: 0;
 }
 
 section.logo1 h3 {
