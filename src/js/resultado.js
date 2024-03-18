@@ -1,6 +1,6 @@
 let data = []
 
-const carregarDados = fetch('../../file.json')
+const loadData = fetch('../../file.json')
     .then(response => {
       return response.json();
     }).then(res => data = res)
@@ -14,30 +14,27 @@ const displayData = (result) => {
     result.forEach(e => {
       cardContainer.innerHTML += `
       <div class="card">
-        <h3>${e.title}</h3>
-        <p>${e.description}</p>
+        <a href="${e.link}">
+          <h3>${e.title}</h3>
+          <p>${e.description}</p>
+        </a>
       </div>
       `  
     })
   }else {
-    data.forEach(e => {
-      cardContainer.innerHTML += `
-      <div class="card">
-        <h3>${e.title}</h3>
-        <p>${e.description}</p>
-      </div>
-      `  
-    })
+    cardContainer.innerHTML = `<p>Sem resultados</p>`;
   }
+  
 }
 
 resultInput.addEventListener("keyup", (e) => {
   const searchTerm = e.target.value.toLowerCase();
-  const result = data.filter(i => 
-      i.title.toLowerCase().includes(searchTerm) || 
-      i.description.toLowerCase().includes(searchTerm)
-  );
+  let result = []
+  if (searchTerm) {
+    result = data.filter(i => 
+        i.title.toLowerCase().includes(searchTerm) || 
+        i.description.toLowerCase().includes(searchTerm)
+    );
+  }
   displayData(result);
 });
-
-window.addEventListener("load", displayData.bind(null, data))
