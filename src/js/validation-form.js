@@ -51,6 +51,13 @@ function messageValidate(){
   }
 }
 
+function clearForm(){
+  form.reset()
+  camposInput.forEach(e => {
+    e.classList.remove('success')
+  })
+}
+
 form.addEventListener('submit', event => {
   event.preventDefault()
 
@@ -59,10 +66,11 @@ form.addEventListener('submit', event => {
   subjectValidate()
   messageValidate()
 
-  camposInput = document.querySelectorAll('.error')
+  let camposInputError = document.querySelectorAll('.error')
 
-  if(!camposInput.length){
+  if(!camposInputError.length){
     alert('Dados enviados com sucesso!')
+    clearForm()
   }
 
 })
