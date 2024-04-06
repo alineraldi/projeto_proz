@@ -132,24 +132,24 @@ VALUES
 ('16','Taylor Davis','Berimbau','Cordas','13','4','2');
 
 
-INSERT INTO instrumento (id_instrumento, nome, area, professor, aluno)
+INSERT INTO instrumento (id_instrumento, nome, area, professor)
 VALUES
-('1','Flauta','Sopros','1','1'),
-('2','Guitarra','Cordas','2','2'),
-('3','Bateria','Percussão','3','3'),
-('4','Piano','Teclas','4','4'),
-('5','Clarinete','Sopros','6','4'),
-('6','Saxofone','Sopros','9','4'),
-('7','Trompete','Sopros','14','4'),
-('8','Cajon','Percussão','11','4'),
-('9','Chocalho','Percussão','15','4'),
-('10','Pandeiro','Percussão','7','4'),
-('11','Violino','Cordas','8','4'),
-('12','Violão','Cordas','10','4'),
-('13','Berimbau','Cordas','16','4'),
-('14','Acordeon','Teclas','5','4'),
-('15','Clavicórdio','Teclas','13','4'),
-('16','Cravo','Teclas','12','4');
+('1','Flauta','Sopros','1'),
+('2','Guitarra','Cordas','2'),
+('3','Bateria','Percussão','3'),
+('4','Piano','Teclas','4'),
+('5','Clarinete','Sopros','6'),
+('6','Saxofone','Sopros','9'),
+('7','Trompete','Sopros','14'),
+('8','Cajon','Percussão','11'),
+('9','Chocalho','Percussão','15'),
+('10','Pandeiro','Percussão','7'),
+('11','Violino','Cordas','8'),
+('12','Violão','Cordas','10'),
+('13','Berimbau','Cordas','16'),
+('14','Acordeon','Teclas','5'),
+('15','Clavicórdio','Teclas','13'),
+('16','Cravo','Teclas','12');
 
 
 INSERT INTO aula (id_aluno, id_professor, professor, aluno, instrumento)
@@ -170,3 +170,21 @@ VALUES
 ('2','14','Samara Alves','Aline Raldi','Trompete'),
 ('4','15','Thiaguinho','Diego Ramon','Chocalho'),
 ('1','16','Taylor Davis','Samara Alves','Berimbau');
+
+
+-- Querys do Banco
+
+SELECT * FROM professor ORDER by area
+
+SELECT * FROM instrumento ORDER BY area
+
+SELECT * FROM professor WHERE nome_prof = 'Samara Alves'
+
+SELECT * FROM aluno where coordenacao = '2'
+
+SELECT * FROM coordenacao WHERE coordenador LIKE '%Beethoven%'
+
+SELECT al.professor as "Professor", alu.nome_aluno AS "Aluno", al.instrumento AS "Aula de Instrumento:" 
+FROM aula as al
+INNER JOIN aluno AS alu
+on al.id_aluno = alu.id_aluno
