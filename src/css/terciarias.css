@@ -54,16 +54,16 @@ h2, h3 {
     font-style: italic;
     padding-top: 5px;
     padding-bottom: 5px;
-    font-size: 35px;
+    font-size: 48px;
     color: #CC5216;
 }
 
 h3 {
-    font-size: 25px;
+    font-size: 40px;
 }
 
 p {
-    font-size: 25px;
+    font-size: 32px;
     line-height: 1.5;
     text-align: justify;
     color: #9AA3B8;

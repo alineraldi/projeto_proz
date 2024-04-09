@@ -23,7 +23,7 @@ body {
     align-items: center;
     border: 1px solid #9AA3B8;
     background-color: #D9E2F7;
-    width: 400px;
+    width: 500px;
     margin: 20px auto;
     border-radius: 20px;
     padding: 5px 10px;
@@ -58,6 +58,16 @@ body {
     margin: 10px;
     padding: 15px 20px;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.card a {
+    text-decoration: none;
+}
+
+.card p {
+    font-size: 15px;
+    color: #eee;
 }
 
 h2 {
@@ -83,5 +93,6 @@ h3 {
 p {
     font-size: 15px;
     color: #eee;
+    margin-bottom: 15px;
 }
 

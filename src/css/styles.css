@@ -101,6 +101,7 @@ header a {
     color: #fff;
     font-size: 20px;
     margin-bottom: 20px;
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 .carousel .list .item .buttons{

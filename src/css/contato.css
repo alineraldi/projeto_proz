@@ -28,6 +28,7 @@ section {
 }
 
 section h2 {
+    font-size: 75px;
     color: #CC5216;
     text-align: center;
 }
@@ -74,3 +75,24 @@ form button:hover{
     transition: 0.5s;
 }
 
+.helper-text {
+    display: none;
+    font-size: .8rem;
+    color: #c1121f;
+}
+
+.error {
+    border: solid 3px #c1121f;
+    background-color: #CCBBBB;
+    color: #c1121f;
+}
+  
+.success {
+    background-color: #BBCCBB;
+    border: solid 3px #206620;
+    color: #206620;
+}
+  
+.visible {
+    display: block;
+}
