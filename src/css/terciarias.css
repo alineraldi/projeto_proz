@@ -12,6 +12,10 @@
     font-family: "Poppins", sans-serif;
 }
 
+:target {
+    scroll-margin-top: 7rem;
+}
+
 #geral{
     background-color: #0D314E;
     display: flex;

@@ -2,201 +2,201 @@
   {
     "title": "Cordas" ,
     "description": "Os primeiros instrumentos de cordas remontam à antiguidade, onde culturas como a suméria e a egípcia utilizavam harpas e liras...",
-    "link": "/src/pages/category/cordas/cordas.html"
+    "link": "/src/pages/category/cordas/cordas.html#cordas"
   },
   {
    "title": "Você Sabia? Cordas",
    "description": "O instrumento de cordas mais antigo conhecido é a lira? Ela remonta a cerca de 3.500 anos a.C!...",
-   "link":"/src/pages/category/cordas/cordas.html" 
+   "link":"/src/pages/category/cordas/cordas.html#vocesabiacordas" 
   },
   {
    "title": "Guitarra",
    "description": "A guitarra elétrica tem suas origens em experimentações e inovações do início do século XX. A necessidade de amplificar o som...",
-   "link":"/src/pages/category/cordas/guitarra.html"
+   "link":"/src/pages/category/cordas/guitarra.html#guitarra"
   },
   {
    "title": "Você Sabia? Guitarra",
    "description": "Sabia que durante a Segunda Guerra Mundial, houve uma escassez de materiais tradicionais para a fabricação de guitarras devido às restrições impostas pela guerra?...",
-   "link":"/src/pages/category/cordas/guitarra.html" 
+   "link":"/src/pages/category/cordas/guitarra.html#vocesabiaguitarra" 
   },
   {
    "title": "Violão",
    "description": "A história do violão está ligada à evolução dos instrumentos de cordas ao longo dos séculos. Seu antecessor mais direto, a guitarra mourisca...",
-    "link": "/src/pages/category/cordas/violao.html"
+    "link": "/src/pages/category/cordas/violao.html#violao"
   },
   {
    "title": "Você Sabia? Violão",
    "description":"Sabia que o violão moderno evoluiu a partir da guitarra clássica espanhola, mas há uma teoria intrigante que sugere uma influência africana em sua concepção?...", 
-   "link": "/src/pages/category/cordas/violao.html"
+   "link": "/src/pages/category/cordas/violao.html#vocesabiaviolao"
   },
   {
    "title": "Violino",
    "description": "O violino tem uma história fascinante que remonta ao início do século XVI, na Itália renascentista. Atribui-se geralmente a criação do instrumento ao luthier Andrea Amati...",
-   "link":"/src/pages/category/cordas/violino.html"
+   "link":"/src/pages/category/cordas/violino.html#violino"
   },
   {
    "title": "Você Sabia? Violino",
    "description":"Sabia que toda a família do violino compartilha uma peça, que se chama Ponte? A ponte é uma pequena peça de madeira colocada entre as cordas e a caixa de ressonância do instrumento...",  
-   "link":"/src/pages/category/cordas/violino.html"
+   "link":"/src/pages/category/cordas/violino.html#vocesabiaviolino"
   },
   {
    "title": "Berimbau",
    "description":"O berimbau é um instrumento de origem afro-brasileira, e tem uma história profundamente vinculada às tradições africanas, especialmente entre os povos bantu...",
-   "link":"/src/pages/category/cordas/berimbau.html" 
+   "link":"/src/pages/category/cordas/berimbau.html#berimbau" 
   },
   {
    "title": "Você Sabia? Berimbau",
    "description":"Sabia que o berimbau transcende sua função musical, adquirindo significados espirituais e culturais profundos em diferentes contextos afro-brasileiros?...",
-   "link":"/src/pages/category/cordas/berimbau.html"
+   "link":"/src/pages/category/cordas/berimbau.html#vocesabiaberimbau"
   },
   {
    "title": "Percussão",
    "description":"Os instrumentos de percussão têm uma história que remonta aos primórdios da humanidade. Nos estágios iniciais, eram objetos naturais como troncos ocos, pedras e conchas, manipulados...",
-   "link":"/src/pages/category/percussao/percussao.html"
+   "link":"/src/pages/category/percussao/percussao.html#percussao"
   },
   {
    "title": "Você Sabia? Percussão",
    "description":"Em diversas sociedades, os tambores e outros instrumentos de percussão desempenham papéis importantes em rituais religiosos, celebrações culturais e eventos sociais...",
-   "link":"/src/pages/category/percussao/percussao.html" 
+   "link":"/src/pages/category/percussao/percussao.html#vocesabiapercussao" 
   },
   {
    "title": "Bateria",
    "description":"A bateria é um instrumento de percussão que evoluiu ao longo de séculos. Inicialmente composta por tambores primitivos, seu desenvolvimento acelerou-se na Idade Média...", 
-   "link":"/src/pages/category/percussao/bateria.html"
+   "link":"/src/pages/category/percussao/bateria.html#bateria"
   },
   {
    "title": "Você Sabia? Bateria",
    "description":"Sabia que o termo bateria para se referir a um conjunto de tambores e pratos foi popularizado no início do século XX?...",
-   "link":"/src/pages/category/percussao/bateria.html"
+   "link":"/src/pages/category/percussao/bateria.html#vocesabiabateria"
   },
   {
    "title": "Cajon",
    "description":"O cajón é um instrumento de percussão que tem suas raízes na cultura afro-peruana. Sua história remonta aos tempos da escravidão no Peru, quando os africanos trazidos como escravizados...",
-   "link":"/src/pages/category/percussao/cajon.html"   
+   "link":"/src/pages/category/percussao/cajon.html#cajon"   
   },
   {
    "title": "Você Sabia? Cajon",
    "description":"Sabia que muitos cajóns são feitos artesanalmente? Os construtores muitas vezes selecionam cuidadosamente...",
-   "link":"/src/pages/category/percussao/cajon.html"
+   "link":"/src/pages/category/percussao/cajon.html#vocesabiacajon"
   },
   {
    "title": "Chocalho",
    "description":"O chocalho é um instrumento de percussão com raízes antigas, utilizado em diversas culturas para cerimônias, rituais e música...",
-   "link":"/src/pages/category/percussao/chocalho.html"   
+   "link":"/src/pages/category/percussao/chocalho.html#chocalho"   
   },
   {
    "title": "Você Sabia? Chocalho",
    "description":"Sabia que em algumas culturas, o chocalho era considerado mais do que apenas um instrumento musical?...",
-   "link":"/src/pages/category/percussao/chocalho.html"
+   "link":"/src/pages/category/percussao/chocalho.html#vocesabiachocalho"
   },
   {
    "title": "Pandeiro",
    "description":"O pandeiro é um instrumento de percussão com raízes antigas, mencionado em culturas grega e romana. No Brasil, foi influenciado por culturas africanas durante o período da escravidão...",
-   "link":"/src/pages/category/percussao/pandeiro.html"
+   "link":"/src/pages/category/percussao/pandeiro.html#pandeiro"
   },
   {
    "title": "Você Sabia? Pandeiro",
    "description":"Uma curiosidade interessante sobre o pandeiro é sua versatilidade na produção de sons. Os músicos podem utilizar...",
-   "link":"/src/pages/category/percussao/pandeiro.html"
+   "link":"/src/pages/category/percussao/pandeiro.html#vocesabiapandeiro"
   },
   {
    "title": "Sopros",
    "description":"Os instrumentos de sopro têm uma longa história na música, começando com flautas feitas de ossos em civilizações antigas. Na Idade Média, eram usados em contextos religiosos, e durante o Renascimento...",
-   "link":"/src/pages/category/sopros/sopros.html"
+   "link":"/src/pages/category/sopros/sopros.html#sopros"
   },
   {
    "title": "Você Sabia? Sopros",
    "description":"Os músicos que tocam instrumentos de sopro também desenvolvem o foco. Isso ocorre porque uma nota errada pode se destacar muito — diferente de uma guitarrista, por exemplo, que se errar uma nota ou um Power...",
-   "link":"/src/pages/category/sopros/sopros.html"
+   "link":"/src/pages/category/sopros/sopros.html#vocesabiasopros"
   },
   {
    "title": "Clarinete",
    "description":"O clarinete tem origens que remontam ao início do século XVIII, evoluindo a partir do chalumeau. Johann Christoph Denner, um construtor de instrumentos alemão...",
-   "link":"/src/pages/category/sopros/clarinete.html" 
+   "link":"/src/pages/category/sopros/clarinete.html#clarinete" 
   },
   {
    "title": "Você Sabia? Clarinete",
    "description":"Uma curiosidade inusitada sobre o clarinete é a existência do clarinete de vidro. Este instrumento peculiar foi desenvolvido no século XVIII e era feito inteiramente de vidro...",
-   "link":"/src/pages/category/sopros/clarinete.html" 
+   "link":"/src/pages/category/sopros/clarinete.html#vocesabiaclarinete" 
   },
   {
    "title": "Flauta Transversal",
    "description":"A história da flauta transversal remonta a séculos atrás, com suas origens evidenciadas em diversas culturas antigas. A flauta transversal moderna, como a conhecemos hoje...",
-   "link":"/src/pages/category/sopros/flauta_transversal.html" 
+   "link":"/src/pages/category/sopros/flauta_transversal.html#flauta" 
   },
   {
    "title": "Você Sabia? Flauta Transversal",
    "description":"Sabia que a flauta é um instrumento que permite a execução de efeitos sonoros especiais, conhecidos como efeitos estendidos? Além de tocar as notas tradicionais,",
-   "link":"/src/pages/category/sopros/flauta_transversal.html"  
+   "link":"/src/pages/category/sopros/flauta_transversal.html#vocesabiaflauta"  
   },
   {
    "title": "Saxofone",
    "description":"O saxofone, inventado por Adolphe Sax em torno de 1840, surgiu como uma fusão única de instrumentos de sopro cônicos e palhetas simples. Inicialmente adotado em contextos militares...",
-   "link":"/src/pages/category/sopros/saxofone.html" 
+   "link":"/src/pages/category/sopros/saxofone.html#sax" 
   },
   {
    "title": "Você Sabia? Saxofone",
    "description":"Sabia que existe uma versão gigante do instrumento chamada saxofone submarino? Desenvolvido na década de 1990 pelo artista alemão-mexicano Pedro Reyes, este saxofone...",
-   "link":"/src/pages/category/sopros/saxofone.html"
+   "link":"/src/pages/category/sopros/saxofone.html#vocesabiasax"
   },
   {
    "title": "Trompete",
    "description":"A história do trompete é marcada por uma evolução que remonta a civilizações antigas, onde versões primitivas eram utilizadas em contextos cerimoniais e militares...",
-   "link":"/src/pages/category/sopros/trompete.html" 
+   "link":"/src/pages/category/sopros/trompete.html#trompete" 
   },
   {
    "title": "Você Sabia? Trompete",
    "description":"Sabia que o trompete desempenhou um importante papel na comunicação militar em algumas culturas antigas? Antes do advento das comunicações modernas...",
-   "link":"/src/pages/category/sopros/trompete.html" 
+   "link":"/src/pages/category/sopros/trompete.html#vocesabiatrompete" 
   },
   {
    "title": "Teclas",
    "description":"Os instrumentos de teclado são aqueles em que os sons são acionados e controlados por um conjunto de teclas. Com uma forte base teórica musical, os instrumentos de tecla destacam-se por sua qualidade...",
-   "link":"/src/pages/category/teclas/teclas.html" 
+   "link":"/src/pages/category/teclas/teclas.html#teclas" 
   },
   {
    "title": "Você Sabia? Teclas",
    "description":"Os primeiros teclados surgiram no século III a. C., com os órgãos hidráulicos, na era greco-romana, mas só ganharam importância na civilização ocidental...",
-   "link":"/src/pages/category/teclas/teclas.html" 
+   "link":"/src/pages/category/teclas/teclas.html#vocesabiateclas" 
   },
   {
    "title": "Acordeon",
    "description":"O Acordeon: Em bom português podemos chamá-lo de Acordeão, ou como nossos Hermanos Argentinos, Acordeón, ali do lado os Gaúchos chamam de Gaita mesmo...",
-   "link":"/src/pages/category/teclas/acordeao.html"
+   "link":"/src/pages/category/teclas/acordeao.html#acordeao"
   },
   {
    "title": "Você Sabia? Acordeon",
    "description":"Sabia que os acordeons possuem inúmeras variações de tamanhos, quantidade de baixos, teclas ou botões e afinações? Sendo assim, tome muito cuidado quando...",
-   "link":"/src/pages/category/teclas/acordeao.html"
+   "link":"/src/pages/category/teclas/acordeao.html#vocesabiaacordeao"
   },
   {
    "title": "Clavicordio",
    "description":"O clavicórdio é um instrumento musical de cordas percutidas, dotado de teclado. Ele foi criado no final da Idade Média, passando pelo Renascimento...",
-   "link":"/src/pages/category/teclas/clavicordio.html"  
+   "link":"/src/pages/category/teclas/clavicordio.html#clavicordio"  
   },
   {
    "title": "Você Sabia? Clavicordio",
    "description":"Sabia que o clavicórdio também ganhou atenção noutros tipos de música, sob a forma do clavinete, que é essencialmente um clavicórdio eléctrico que usa um pickup magnético...",
-   "link":"/src/pages/category/teclas/clavicordio.html"  
+   "link":"/src/pages/category/teclas/clavicordio.html#vocesabiaclavicordio"  
   },
   {
     "title": "Cravo",
     "description":"A referência mais antiga sobre sua criação é datada do século 14, na Itália, quando inicialmente foi chamado de clavicembalum. É considerado o mais importante e versátil instrumento de teclado...",
-    "link":"/src/pages/category/teclas/cravo.html"
+    "link":"/src/pages/category/teclas/cravo.html#cravo"
    },
   {
    "title": "Você Sabia? Cravo",
    "description":"Após a chegada de D. João VI no Rio de Janeiro em 1808, os cravos também passaram a integrar os salões da corte. O pintor Henrique Bernardelli (1858-1936) produziu a tela intitulada...",
-   "link":"/src/pages/category/teclas/cravo.html"
+   "link":"/src/pages/category/teclas/cravo.html#vocesabiacravo"
   },
   {
    "title": "Piano",
    "description":"O piano é muito conhecido hoje em dia talvez por ter sido o principal instrumento usado por importantes músicos da história, como Mozart e Beethoven...",
-   "link":"/src/pages/category/teclas/piano.html"  
+   "link":"/src/pages/category/teclas/piano.html#pianopage"  
   },
   {
    "title": "Você Sabia? Piano",
    "description":"Esse instrumento tem um lugar especial no cinema. Durante a era do cinema mudo, pianistas tocavam ao vivo durante a exibição dos filmes...",
-   "link":"/src/pages/category/teclas/piano.html"     
+   "link":"/src/pages/category/teclas/piano.html#vocesabiapiano"     
   }
 ]

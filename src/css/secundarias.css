@@ -31,6 +31,11 @@ body main {
 }
 
 
+:target {
+    scroll-margin-top: 7rem;
+}
+
+
 h1 {
     display: flex;
     font-family: 'Poppins';
