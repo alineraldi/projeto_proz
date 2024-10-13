@@ -4,7 +4,7 @@
 
 ###
 
-<p align="right">Este projeto é o resultado do curso de Introdução à Programação com foco em Front-End pela Proz Educação. <br>🪈 🎹 🎸 🪇 🎻 🥁Criamos uma página dedicada ao aprofundamento no estudo de instrumentos musicais, abordando sua história, sonoridade e exemplos reais. O projeto foi desenvolvido em grupo, utilizando a metodologia Scrum em sprints.<br><br>This project is the result of the Introduction to Programming course focused on Front-End at Proz Educação. We created a webpage dedicated to deepening the study of musical instruments, covering their history, sound characteristics, and real-life examples. The project was developed in a group using the Scrum methodology in sprints.</p>
+<p align="right">Este projeto é o resultado do curso de Introdução à Programação com foco em Front-End pela Proz Educação. <br>🪈 🎹 🎸 🪇 🎻 🥁 <br> Criamos uma página dedicada ao aprofundamento no estudo de instrumentos musicais, abordando sua história e sonoridade. <br> O projeto foi desenvolvido em grupo, utilizando a metodologia Scrum em sprints.<br><br>This project is the result of the Introduction to Programming course focused on Front-End at Proz Educação. We created a webpage dedicated to deepening the study of musical instruments, covering their history and sound characteristics. <br> The project was developed in a group using the Scrum methodology in sprints.</p>
 
 ###
 
